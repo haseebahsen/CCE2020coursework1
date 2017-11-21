@@ -9,9 +9,9 @@ package coursework1;
  *
  * @author m00609532
  */
-public abstract class Circle extends Shape2d{
+public class Circle extends Shape2d{
      
-    private double Radius;
+    double Radius;
     public Circle(String name, double r) {
         super(name);
         Radius = r;
