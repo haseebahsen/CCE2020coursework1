@@ -11,10 +11,11 @@ package coursework1;
  */
 public class Sphere extends Shape3d{
     
-        private double Radius;
+        double Radius;
     
-        public Sphere(String name) {
+        public Sphere(String name, double radius) {
         super(name);
+        this.Radius = radius;
     }
 
     @Override

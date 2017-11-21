@@ -11,8 +11,8 @@ package coursework1;
  */
 public class Rectangle extends Shape2d{
 
-        private double length;
-        private double breadth;
+        double length;
+        double breadth;
     public Rectangle(String name, double l, double b) {
         super(name);
         length = l;

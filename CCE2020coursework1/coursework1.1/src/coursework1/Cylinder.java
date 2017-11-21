@@ -11,8 +11,8 @@ package coursework1;
  */
 public class Cylinder extends Shape3d {
     
-    private double Radius;
-    private double Height;
+    double Radius;
+    double Height;
 
    
     public Cylinder(String name, double r, double h) {
@@ -23,7 +23,7 @@ public class Cylinder extends Shape3d {
         
     }
 
-    @Override
+  
     public double getSa() {
         double area = (2 * 3.14 * Radius)*(Height + Radius);
         return area;

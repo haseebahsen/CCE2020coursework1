@@ -9,7 +9,7 @@ package coursework1;
  *
  * @author m00609532
  */
-public abstract class Shape {
+public abstract class Shape implements java.io.Serializable{
     
     
     private  String _name;
